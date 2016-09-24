@@ -1,0 +1,25 @@
+{
+  "name": "thrift_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gt-big-data/thrift_tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gt-big-data/thrift_tutorial/issues"
+  },
+  "homepage": "https://github.com/gt-big-data/thrift_tutorial#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6",
+    "thrift": "^0.9.3"
+  }
+}
