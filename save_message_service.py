@@ -1,10 +1,10 @@
 from gen_py.tutorial import SaveMessageService
 from gen_py.tutorial import ttypes
 
-from thrift import Thrift
 from thrift.transport import TSocket
 from thrift.transport import TTransport
 from thrift.protocol import TBinaryProtocol
+from thrift.server import TServer
 
 import pymongo
 

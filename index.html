@@ -7,9 +7,15 @@
   <body>
     <div class"container-fluid">
         <div class="col-md-4 col-md-offset-4">
-          <form class="form-horizontal" action='/submit' method="post">
+          <form class="form-horizontal" action='/save'>
               <fieldset>
                 <legend>Comment</legend>
+                  <div class="form-group">
+                  <label for="inputEmail" class="col-lg-2 control-label">User</label>
+                  <div class="col-lg-10">
+                    <input type="text" class="form-control" id="inputEmail">
+                  </div>
+                </div>
                 <div class="form-group">
                   <label for="textArea" class="col-lg-2 control-label">Message</label>
                   <div class="col-lg-10">
@@ -17,7 +23,7 @@
                     <span class="help-block">Type message here</span>
                     <div class="checkbox">
                       <label>
-                        <input type="checkbox" name="private"> Private?
+                        <input type="checkbox" name="share"> Share?
                       </label>
                     </div>
                   </div>

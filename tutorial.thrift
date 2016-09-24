@@ -1,14 +1,10 @@
 struct Message {
     1: i64 timestamp,
-    2: string user_id,
+    2: string user,
     3: string text,
-    4: bool is_private,
-}
-
-service LoggerService {
-    void logMessage(1: Message message)
+    4: bool share,
 }
 
 service SaveMessageService {
-    void saveMessage(1: Message message)
+    void save(1: Message message)
 }

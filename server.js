@@ -3,7 +3,6 @@ var path    = require("path");
 
 var thrift = require('thrift');
 var SaveMessageService = require('./gen-nodejs/SaveMessageService');
-var LoggerService = require('./gen-nodejs/LoggerService');
 var ttypes = require('./gen-nodejs/tutorial_types');
 var transport = thrift.TBufferedTransport;
 var protocol = thrift.TBinaryProtocol;
@@ -16,7 +15,7 @@ app.get('/',function(request, response){
   //__dirname : It will resolve to your project folder.
 });
 
-app.post('/submit', function (request, response) {
+app.get('/save', function (request, response) {
   response.sendFile(path.join(__dirname+'/submit.html'));
 });
 
