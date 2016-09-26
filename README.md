@@ -13,6 +13,8 @@ Run `sudo apt-get install thrift-compiler`.
 #### Windows
 Download [Virtual Box](https://www.virtualbox.org/wiki/Downloads) to run a Linux VM then follow the Linux instructions(we'll help you get it set up).
 
+Follow [this](http://tecadmin.net/install-ubuntu-on-virtualbox/) tutorial to get VirtualBox set up with Ubuntu.
+
 
 ### Nodejs
 
